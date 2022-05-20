@@ -41,4 +41,4 @@ update msg model = -- TAKES IN A MESSAGE AND A CURRENT MODEL, AND RETURNS A NEW 
     case msg of
         Increment -> model + 1
         Decrement -> model - 1
-        Nucrement -> 0
+        Nucrement -> 100
