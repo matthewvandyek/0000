@@ -35,7 +35,7 @@ view model =
             , div [ class "buttons" ]
                 [ button [ class "button", onClick Sucrement ] [ text "?" ]
                 , button [ class "button", onClick Bicrement ] [ text "X" ]
-                , button [ class "button", onClick Wecrement ] [ text "ùwú" ]
+                , button [ class "button", onClick Wecrement ] [ text "epic jump" ]
                 ]
             ]
         , div [ class "column is-two-thirds" ]
