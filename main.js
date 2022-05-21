@@ -1,5 +1,5 @@
-import { Elm } from './src/Main.elm'
+import { Elm } from './src/Button.elm'
 
-Elm.Main.init({
+Elm.Button.init({
     node: document.getElementById('app')
 })
