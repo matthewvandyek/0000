@@ -49,7 +49,7 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-  div [ class "tile is-parent box is-vertical h-175 is-4" ]
+  div [ class "tile is-parent box is-vertical h-175 ml-5" ]
   [ h3 [] [ text "Exercise #2" ] 
   , article [ class "tile p-3 is-child" ]
     [ input [ class "input p-3 my-3 is-small is-primary", placeholder "Text to reverse", value model.content, onInput Change ] []

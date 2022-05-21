@@ -1,4 +1,4 @@
-# Elm Hello World
+# Elm Playground
 > A counter example using Elm!
 
 ### Local development
