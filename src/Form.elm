@@ -59,17 +59,17 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-  div [ class "tile is-parent box is-vertical h-175 mx-5" ]
-  [ h3 [] [ text "Exercise #3" ] 
-  , article [ class "tile p-3 is-child" ]
-    [ div []
-        [ viewInput "text" "Name" model.name Name
-        , viewInput "password" "Password" model.password Password
-        , viewInput "password" "Re-enter Password" model.passwordAgain PasswordAgain
-        , viewValidation model
+    div [ class "tile is-parent box is-vertical h-175 mx-5" ]
+        [ h3 [] [ text "Exercise #3" ] 
+        , article [ class "tile p-3 is-child" ]
+            [
+                viewInput "text" "Name" model.name Name
+                , viewInput "password" "Password" model.password Password
+                , viewInput "password" "Re-enter Password" model.passwordAgain PasswordAgain
+                , viewValidation model
+
+            ]
         ]
-    ]
-  ]
 
 
 
